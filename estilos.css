@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: #161717;
+  color: white
+}
+
+/* ESTO ES PARA LA PARTE SUPERIOR */
+.container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 450px;
+}
+
+h3{
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.google-btn{
+  background-color: #1a73e8 ;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.google-btn:hover{
+  opacity: 0.75;
+}
+
+.google-btn picture{
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn picture img{
+  width: 75%;
+}
+
+.google-btn span{
+  background-color: #1a73e8 ;
+  color: white;
+  font-weight: 500;
+  padding: 5px;
+}
+/*  */
+
+.twitter-btn{
+  background-color: #fff ;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.twitter-btn picture{
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn picture img{
+  width: 75%;
+}
+
+.twitter-btn span{
+  color: #161717;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.twitter-btn:hover{
+  opacity: 0.75;
+}
+
+
+/* ESTO ES PARA LA PARTE DE LOS CAMPOS */
+
+.separator{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.separator hr{
+  flex-grow: 1;
+  border: none; 
+  border-top: 1px solid #ccc;
+}
+
+.separator span{
+  color: #bbb;
+}
+
+/* Eso es para Los campos */
+
+.section-inputs{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label span{
+  font-weight: 700;
+}
+
+.section-inputs label input{
+  width: 80%;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+}
+
+label input{
+  width: 90%;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+  transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover{
+  background-color: #454045;
+  border: solid 1px #f3f3f4;
+  box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label input:focus{
+  background-color: #fff;
+  border: solid 1px #f3f3f4;
+  box-shadow: 0 0 4px #eb50ff4f;
+  cursor: pointer;
+}
+
+.checkbox-label{
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"]{
+  width: 20px;
+}
+
+.checkbox-label span{
+  font-weight: 400;
+  color: white;
+}
+
+.btn-submit{
+  background-color: #ea4c89;
+  color: white;
+  font-weight: 500;
+  font-size: 14pt;
+  text-align: center;
+  padding: 15px; 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-submit:hover{
+  opacity: 0.86;
+}
+
